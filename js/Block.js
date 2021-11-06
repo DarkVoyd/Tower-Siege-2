@@ -5,7 +5,7 @@ class Block{
             friction :0.0,
             isStatic : false
         }
-        
+        this.visiblity = 255;
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
